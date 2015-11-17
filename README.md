@@ -25,7 +25,7 @@ We newly wrote BIOS loader module and bus module in Verilog HDL in order to repl
 1.Clone Frix project from GitHub
 
 ```
-git clone http://*******/frix.git
+git clone https://github.com/archlabo/Frix.git
 ```
 
 2.Get required modules from ao486 project
@@ -73,8 +73,8 @@ Nexys4 and Nexys4 DDR have each micro SD card slot, and DE2-115 has SD card slot
 Store both BIOS image and disk image to SD card using dd command:
 
 ```
-dd if=/path/to/project_dir/ao486/sd/bios/bochs_legacy of=/dev/diskX bs=512 seek=72
-dd if=/path/to/project_dir/ao486/sd/vgabios/vgabios-lgpl of=/dev/diskX bs=512 seek=8
+dd if=ao486/sd/bios/bochs_legacy of=/dev/diskX bs=512 seek=72
+dd if=ao486/sd/vgabios/vgabios-lgpl of=/dev/diskX bs=512 seek=8
 
 dd if=***.img of=/dev/diskX bs=102400 seek=512
 
@@ -156,7 +156,7 @@ wget http://distro.ibiblio.org/tinycorelinux/5.x/x86/release/src/kernel/linux-3.
 ```
 tar Jxvf linux-3.8.10-patched.txz
 cd linux-3.8.10-patched
-patch -p2 -d . < ○○○/misc/tinycore/patch_ao486
+patch -p2 -d . < misc/tinycore/patch_ao486
 ```
 
 This patch modify these files and comment out some lines which access CR4:
@@ -170,7 +170,7 @@ Copy our config file to top directory as '.config'.
 We have to specify 'ARCH=i386' for 32-bit compilation.
 
 ```
-cp ○○○/misc/tinycore/config-ao486 .config
+cp misc/tinycore/config-ao486 .config
 make ARCH=i386 oldconfig
 ```
 If you want to change some options, use ```make ARCH=i386 menuconfig```.
@@ -205,7 +205,7 @@ arch/x86/boot/bzImage is compiled kernel image.
 mkdir mnt
 sudo mount -o loop,offset=32256 tinycore.img mnt
 cd mnt/boot
-sudo cp ○○○/linux-3.8.10-patched/arch/x86/boot/bzImage vmlinuz-modified
+sudo cp linux-3.8.10-patched/arch/x86/boot/bzImage vmlinuz-modified
 ```
 
 6.Edit grub menulist. First open the file:
