@@ -1,0 +1,89 @@
+2014.1:
+ * Version 2.0 (Rev. 3)
+ * Extended IES and VCS support to Multi-Controller and Multi-Interface designs
+ * Added Support for Artix XC7A35T and XC7A50T devices (See Xilinx Answer 59632)
+ * Resolved recustomization and file generation issue (See Xilinx Answer 59714)
+ * Resolved Vivado not generating correct VHDL template issue(See Xilinx Answer 59515)
+ * Resolved unability to derive 150MHz input clock frequency issue (See Xilinx Answer 58647)
+ * Resolved IP generation error message for 8Gb part (See Xilinx Answer 58894)
+ * Resolved non-ideal RC settings for DIMMs (See Xilinx Answer 57221)
+ * Resolved timing failures with the VIO/ILA 2.0 cores when using multiple clock domains (See Xilinx Answer 56387)
+ * Added stand-alone support for XSIM through Vivado (See Xilinx Answer 58668)
+ * Resolved VCS and IES simulation failures (See Xilinx Answer 58636)
+ * Resolved RLDRAM3 simulation failures (See Xilinx Answer 58635)
+ * Resolved RLDRAM3 memory model out of date (See Xilinx Answer 58620)
+
+2013.4:
+ * Version 2.0 (Rev. 2)
+ * Added OOC support
+ * Added support for IES and VCS Simulators
+
+2013.3:
+ * Version 2.0 (Rev. 1)
+ * Added support for ILA 3.0 and VIO 3.0
+ * Resolved controller hang issues on read-modify-write commands (See Xilinx Answer 54710)
+ * Resolved Clock Driver Enable settings for RC1 on RDIMM interfaces (See Xilinx Answer 57279)
+ * Updated Chipscope debug signals for OCLKDELAY calibration (See Xilinx Answer 54918)
+ * Resolved timing failures with larger SSI devices  (See Xilinx Answer 56385)
+ * Added AXI addressing support over 32 bits for DDR2 and DDR3
+ * Corrected Chip Select width for single rank RDIMM devices (See Xilinx Answer 57436)
+
+2013.2:
+ * Version 2.0
+ * 2013.2 software support
+ * Added support for ILA 2.0 and VIO 2.0
+
+2013.1:
+ * Version 1.9.a
+ * 2013.1 software support
+ * Questa SIM 10.1b Support
+ * Synplify Pro supported version G-2012.09-SP1
+ * Support of LPDDR2 SDRAM Verilog designs
+ * System Reset Pin Polarity selection
+ * Additional clocks selection for AXI interface designs
+
+(c) Copyright 2008 - 2014 Xilinx, Inc. All rights reserved.
+
+This file contains confidential and proprietary information
+of Xilinx, Inc. and is protected under U.S. and
+international copyright and other intellectual property
+laws.
+
+DISCLAIMER
+This disclaimer is not a license and does not grant any
+rights to the materials distributed herewith. Except as
+otherwise provided in a valid license issued to you by
+Xilinx, and to the maximum extent permitted by applicable
+law: (1) THESE MATERIALS ARE MADE AVAILABLE "AS IS" AND
+WITH ALL FAULTS, AND XILINX HEREBY DISCLAIMS ALL WARRANTIES
+AND CONDITIONS, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING
+BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, NON-
+INFRINGEMENT, OR FITNESS FOR ANY PARTICULAR PURPOSE; and
+(2) Xilinx shall not be liable (whether in contract or tort,
+including negligence, or under any other theory of
+liability) for any loss or damage of any kind or nature
+related to, arising under or in connection with these
+materials, including for any direct, or any indirect,
+special, incidental, or consequential loss or damage
+(including loss of data, profits, goodwill, or any type of
+loss or damage suffered as a result of any action brought
+by a third party) even if such damage or loss was
+reasonably foreseeable or Xilinx had been advised of the
+possibility of the same.
+
+CRITICAL APPLICATIONS
+Xilinx products are not designed or intended to be fail-
+safe, or for use in any application requiring fail-safe
+performance, such as life-support or safety devices or
+systems, Class III medical devices, nuclear facilities,
+applications related to the deployment of airbags, or any
+other applications that could lead to death, personal
+injury, or severe property or environmental damage
+(individually and collectively, "Critical
+Applications"). Customer assumes the sole risk and
+liability of any use of Xilinx products in Critical
+Applications, subject only to applicable laws and
+regulations governing limitations on product liability.
+
+THIS COPYRIGHT NOTICE AND DISCLAIMER MUST BE RETAINED AS
+PART OF THIS FILE AT ALL TIMES.

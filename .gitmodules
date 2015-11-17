@@ -1,0 +1,3 @@
+[submodule "ao486"]
+	path = ao486
+	url = https://github.com/alfikpl/ao486.git

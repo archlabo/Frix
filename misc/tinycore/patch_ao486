@@ -1,0 +1,87 @@
+diff -upr original/linux-3.8.10-patched/arch/x86/kernel/cpu/mtrr/generic.c modified/linux-3.8.10-patched/arch/x86/kernel/cpu/mtrr/generic.c
+--- original/linux-3.8.10-patched/arch/x86/kernel/cpu/mtrr/generic.c	2013-03-21 05:11:19.000000000 +0900
++++ modified/linux-3.8.10-patched/arch/x86/kernel/cpu/mtrr/generic.c	2015-10-23 16:30:30.935241668 +0900
+@@ -676,10 +676,10 @@ static void prepare_set(void) __acquires
+ 	wbinvd();
+ 
+ 	/* Save value of CR4 and clear Page Global Enable (bit 7) */
+-	if (cpu_has_pge) {
+-		cr4 = read_cr4();
+-		write_cr4(cr4 & ~X86_CR4_PGE);
+-	}
++	/* if (cpu_has_pge) { */
++	/* 	cr4 = read_cr4(); */
++	/* 	write_cr4(cr4 & ~X86_CR4_PGE); */
++	/* } */
+ 
+ 	/* Flush all TLBs via a mov %cr3, %reg; mov %reg, %cr3 */
+ 	__flush_tlb();
+@@ -704,8 +704,8 @@ static void post_set(void) __releases(se
+ 	write_cr0(read_cr0() & 0xbfffffff);
+ 
+ 	/* Restore value of CR4 */
+-	if (cpu_has_pge)
+-		write_cr4(cr4);
++	/* if (cpu_has_pge) */
++	/* 	write_cr4(cr4); */
+ 	raw_spin_unlock(&set_atomicity_lock);
+ }
+ 
+diff -upr original/linux-3.8.10-patched/arch/x86/kernel/process_32.c modified/linux-3.8.10-patched/arch/x86/kernel/process_32.c
+--- original/linux-3.8.10-patched/arch/x86/kernel/process_32.c	2013-03-21 05:11:19.000000000 +0900
++++ modified/linux-3.8.10-patched/arch/x86/kernel/process_32.c	2015-10-22 22:40:08.978219087 +0900
+@@ -104,7 +104,7 @@ void __show_regs(struct pt_regs *regs, i
+ 	cr0 = read_cr0();
+ 	cr2 = read_cr2();
+ 	cr3 = read_cr3();
+-	cr4 = read_cr4_safe();
++	/* cr4 = read_cr4_safe(); */
+ 	printk(KERN_DEFAULT "CR0: %08lx CR2: %08lx CR3: %08lx CR4: %08lx\n",
+ 			cr0, cr2, cr3, cr4);
+ 
+diff -upr original/linux-3.8.10-patched/arch/x86/kernel/relocate_kernel_32.S modified/linux-3.8.10-patched/arch/x86/kernel/relocate_kernel_32.S
+--- original/linux-3.8.10-patched/arch/x86/kernel/relocate_kernel_32.S	2013-03-21 05:11:19.000000000 +0900
++++ modified/linux-3.8.10-patched/arch/x86/kernel/relocate_kernel_32.S	2015-10-22 19:32:10.355814547 +0900
+@@ -54,8 +54,8 @@ relocate_kernel:
+ 	movl	%eax, CR0(%edi)
+ 	movl	%cr3, %eax
+ 	movl	%eax, CR3(%edi)
+-	movl	%cr4, %eax
+-	movl	%eax, CR4(%edi)
++	; movl	%cr4, %eax
++	; movl	%eax, CR4(%edi)
+ 
+ 	/* read the arguments and say goodbye to the stack */
+ 	movl  20+4(%esp), %ebx /* page_list */
+@@ -124,7 +124,7 @@ identity_mapped:
+ 	 * Setting everything to zero seems safe.
+ 	 */
+ 	xorl	%eax, %eax
+-	movl	%eax, %cr4
++	; movl	%eax, %cr4
+ 
+ 	jmp 1f
+ 1:
+@@ -195,8 +195,8 @@ identity_mapped:
+ 	ret
+ 
+ virtual_mapped:
+-	movl	CR4(%edi), %eax
+-	movl	%eax, %cr4
++	; movl	CR4(%edi), %eax
++	; movl	%eax, %cr4
+ 	movl	CR3(%edi), %eax
+ 	movl	%eax, %cr3
+ 	movl	CR0(%edi), %eax
+diff -upr original/linux-3.8.10-patched/arch/x86/kernel/setup.c modified/linux-3.8.10-patched/arch/x86/kernel/setup.c
+--- original/linux-3.8.10-patched/arch/x86/kernel/setup.c	2013-03-21 05:11:19.000000000 +0900
++++ modified/linux-3.8.10-patched/arch/x86/kernel/setup.c	2015-10-22 22:41:01.506577981 +0900
+@@ -1060,7 +1060,7 @@ void __init setup_arch(char **cmdline_p)
+ 
+ 	if (boot_cpu_data.cpuid_level >= 0) {
+ 		/* A CPU has %cr4 if and only if it has CPUID */
+-		mmu_cr4_features = read_cr4();
++		mmu_cr4_features = 0; //read_cr4();
+ 		if (trampoline_cr4_features)
+ 			*trampoline_cr4_features = mmu_cr4_features;
+ 	}

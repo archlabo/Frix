@@ -1,0 +1,1101 @@
+MIG: 19:40:33 : Running customizer.xit
+MIG: 19:40:33 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 19:40:33 : Writing IN file for 'mig_7series_0'...compDirPath: c:/Xilinx/Vivado/2014.1/data/ip/xilinx/mig_7series_v2_0... instDirPath: c:/Users/matsuda/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6088-matsuda-PC/coregen/mig_7series_0
+MIG: 19:40:33 : synp_flow:  -- synthesis_mode: Other
+MIG: 19:40:33 : outputDirectory: c:/Users/matsuda/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6088-matsuda-PC/coregen/mig_7series_0/_tmp/
+MIG: 19:40:33 : vivado_mode: xpg_pa
+MIG: 19:40:33 :  locked false  
+MIG: 19:40:33 : HDL Language: Verilog
+MIG: 19:40:33 : compInfo: true
+MIG: 19:40:33 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_0/bin/nt64/mig.exe
+MIG: 19:40:33 : xilinx_path: C:/Xilinx/Vivado/2014.1/ids_lite/ISE
+MIG: 19:40:33 : I am in catch area
+MIG: 19:40:33 : Running C:/Xilinx/Vivado/2014.1/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_0/bin/nt64/mig.exe -cg_exc_inp c:/Users/matsuda/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6088-matsuda-PC/coregen/mig_7series_0/xil_txt.in -cg_exc_out c:/Users/matsuda/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6088-matsuda-PC/coregen/mig_7series_0/xil_txt.out ... 
+MIG: 19:47:35 : Prasad before: xmlPropertyPrj --  .prj
+MIG: 19:47:35 : Prasad After: xmlPropertyPrj -- mig_a.prj
+MIG: 19:47:35 : XML_INPUT_FILE: c:/Users/matsuda/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6088-matsuda-PC/coregen/mig_7series_0/mig_a.prj
+MIG: 19:47:35 : Component_Name: mig
+MIG: 19:47:35 : Moving mig ...
+MIG: 19:47:35 : Moving mig.veo ...
+MIG: 19:47:35 : Moving mig_xmdf.tcl ...
+MIG: 19:47:35 : Sending back 0
+MIG: 19:47:41 : xml_input_file: mig_a.prj
+MIG: 19:47:41 : Absolute path of xml_input_file: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig_a.prj
+MIG: 19:47:41 : xml_input_file: mig_a.prj
+MIG: 19:47:41 : Absolute path of xml_input_file: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig_a.prj
+MIG: 19:47:41 : In updateAllModelParams
+MIG: 19:47:41 : IGN:     <ModuleName>mig</ModuleName> <==>     <ModuleName>mig</ModuleName> 
+MIG: 19:47:41 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 19:47:41 : XGUI hdlLanguage: Verilog
+MIG: 19:47:41 : xgui vivado_mode: xpg_pa
+MIG: 19:47:41 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 19:47:41 : Reading Z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig/user_design/rtl/mig_mig.v ...
+MIG: 19:47:42 : 1
+MIG: 19:47:42 : Inside fn mem: DDR2
+MIG: 19:47:42 : QDRII+ Inside fn ui: 50000000
+MIG: 19:47:42 : DDR2
+MIG: 19:47:42 : 
+MIG: 19:47:42 : 50000000
+MIG: 19:47:42 : 
+MIG: 19:47:42 :  polarity_value: 1
+MIG: 19:47:42 : 
+MIG: 19:47:42 : EXTERNAL
+MIG: 19:47:42 :  Invalid Param: DDR2_RST_ACT_LOW ==> 1
+MIG: 19:47:42 : 
+MIG: 19:47:42 :  Valid Param: DDR2_BANK_WIDTH ==> 3
+MIG: 19:47:42 : 
+MIG: 19:47:42 :  Valid Param: DDR2_CK_WIDTH ==> 1
+MIG: 19:47:42 :  Invalid Param: DDR2_COL_WIDTH ==> 10
+MIG: 19:47:42 : 
+MIG: 19:47:42 :  Valid Param: DDR2_CS_WIDTH ==> 1
+MIG: 19:47:42 : 
+MIG: 19:47:42 :  Valid Param: DDR2_nCS_PER_RANK ==> 1
+MIG: 19:47:42 : 
+MIG: 19:47:42 :  Valid Param: DDR2_CKE_WIDTH ==> 1
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 19:47:42 :  Invalid Param: DDR2_DQ_CNT_WIDTH ==> 4
+MIG: 19:47:42 :  Invalid Param: DDR2_DQ_PER_DM ==> 8
+MIG: 19:47:42 : 2
+MIG: 19:47:42 :  Valid Param: DDR2_DM_WIDTH ==> 2
+MIG: 19:47:42 : 16
+MIG: 19:47:42 :  Valid Param: DDR2_DQ_WIDTH ==> 16
+MIG: 19:47:42 : 2
+MIG: 19:47:42 :  Valid Param: DDR2_DQS_WIDTH ==> 2
+MIG: 19:47:42 : 
+MIG: 19:47:42 :  Valid Param: DDR2_DQS_CNT_WIDTH ==> 1
+MIG: 19:47:42 :  Invalid Param: DDR2_DRAM_WIDTH ==> 8
+MIG: 19:47:42 : 
+MIG: 19:47:42 :  Valid Param: ECC ==> OFF
+MIG: 19:47:42 : 16
+MIG: 19:47:42 :  Valid Param: DDR2_DATA_WIDTH ==> 16
+MIG: 19:47:42 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 19:47:42 :  Invalid Param: DDR2_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 19:47:42 :  Invalid Param: DDR2_MEM_ADDR_ORDER ==> "ROW_BANK_COLUMN"
+MIG: 19:47:42 :  Invalid Param: DDR2_nBANK_MACHS ==> 4
+MIG: 19:47:42 :  Invalid Param: DDR2_RANKS ==> 1
+MIG: 19:47:42 : 
+MIG: 19:47:42 :  Valid Param: DDR2_ODT_WIDTH ==> 1
+MIG: 19:47:42 : 13
+MIG: 19:47:42 :  Valid Param: DDR2_ROW_WIDTH ==> 13
+MIG: 19:47:42 : 27
+MIG: 19:47:42 :  Valid Param: DDR2_ADDR_WIDTH ==> 27
+MIG: 19:47:42 : 
+MIG: 19:47:42 :  Valid Param: DDR2_USE_CS_PORT ==> 1
+MIG: 19:47:42 : 
+MIG: 19:47:42 :  Valid Param: DDR2_USE_DM_PORT ==> 1
+MIG: 19:47:42 : 
+MIG: 19:47:42 :  Valid Param: DDR2_USE_ODT_PORT ==> 1
+MIG: 19:47:42 :  Invalid Param: DDR2_PHY_CONTROL_MASTER_BANK ==> 0
+MIG: 19:47:42 :  Invalid Param: DDR2_MEM_DENSITY ==> "1Gb"
+MIG: 19:47:42 :  Invalid Param: DDR2_MEM_SPEEDGRADE ==> "25E"
+MIG: 19:47:42 :  Invalid Param: DDR2_MEM_DEVICE_WIDTH ==> 16
+MIG: 19:47:42 :  Invalid Param: DDR2_AL ==> "0"
+MIG: 19:47:42 :  Invalid Param: DDR2_nAL ==> 0
+MIG: 19:47:42 :  Invalid Param: DDR2_BURST_MODE ==> "8"
+MIG: 19:47:42 :  Invalid Param: DDR2_BURST_TYPE ==> "SEQ"
+MIG: 19:47:42 :  Invalid Param: DDR2_CL ==> 3
+MIG: 19:47:42 :  Invalid Param: DDR2_OUTPUT_DRV ==> "HIGH"
+MIG: 19:47:42 :  Invalid Param: DDR2_RTT_NOM ==> "50"
+MIG: 19:47:42 :  Invalid Param: DDR2_ADDR_CMD_MODE ==> "1T"
+MIG: 19:47:42 : 
+MIG: 19:47:42 :  Valid Param: DDR2_REG_CTRL ==> OFF
+MIG: 19:47:42 :  Invalid Param: DDR2_CLKIN_PERIOD ==> 5000
+MIG: 19:47:42 :  Invalid Param: DDR2_CLKFBOUT_MULT ==> 4
+MIG: 19:47:42 :  Invalid Param: DDR2_DIVCLK_DIVIDE ==> 1
+MIG: 19:47:42 :  Invalid Param: DDR2_CLKOUT0_PHASE ==> 0.0
+MIG: 19:47:42 :  Invalid Param: DDR2_CLKOUT0_DIVIDE ==> 2
+MIG: 19:47:42 :  Invalid Param: DDR2_CLKOUT1_DIVIDE ==> 4
+MIG: 19:47:42 :  Invalid Param: DDR2_CLKOUT2_DIVIDE ==> 64
+MIG: 19:47:42 :  Invalid Param: DDR2_CLKOUT3_DIVIDE ==> 16
+MIG: 19:47:42 :  Invalid Param: DDR2_tCKE ==> 7500
+MIG: 19:47:42 :  Invalid Param: DDR2_tFAW ==> 45000
+MIG: 19:47:42 :  Invalid Param: DDR2_tPRDI ==> 1_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_tRAS ==> 40000
+MIG: 19:47:42 :  Invalid Param: DDR2_tRCD ==> 15000
+MIG: 19:47:42 :  Invalid Param: DDR2_tREFI ==> 7800000
+MIG: 19:47:42 :  Invalid Param: DDR2_tRFC ==> 127500
+MIG: 19:47:42 :  Invalid Param: DDR2_tRP ==> 12500
+MIG: 19:47:42 :  Invalid Param: DDR2_tRRD ==> 10000
+MIG: 19:47:42 :  Invalid Param: DDR2_tRTP ==> 7500
+MIG: 19:47:42 :  Invalid Param: DDR2_tWTR ==> 7500
+MIG: 19:47:42 :  Invalid Param: DDR2_tZQI ==> 128_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_tZQCS ==> 64
+MIG: 19:47:42 :  Invalid Param: DDR2_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 19:47:42 :  Invalid Param: DDR2_SIMULATION ==> "FALSE"
+MIG: 19:47:42 :  Invalid Param: DDR2_BYTE_LANES_B0 ==> 4'b1111
+MIG: 19:47:42 :  Invalid Param: DDR2_BYTE_LANES_B1 ==> 4'b0000
+MIG: 19:47:42 :  Invalid Param: DDR2_BYTE_LANES_B2 ==> 4'b0000
+MIG: 19:47:42 :  Invalid Param: DDR2_BYTE_LANES_B3 ==> 4'b0000
+MIG: 19:47:42 :  Invalid Param: DDR2_BYTE_LANES_B4 ==> 4'b0000
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA_CTL_B0 ==> 4'b0101
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA_CTL_B1 ==> 4'b0000
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA_CTL_B2 ==> 4'b0000
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA_CTL_B3 ==> 4'b0000
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA_CTL_B4 ==> 4'b0000
+MIG: 19:47:42 :  Invalid Param: DDR2_PHY_0_BITLANES ==> 48'hFFC_3F7_FFF_3FE
+MIG: 19:47:42 :  Invalid Param: DDR2_PHY_1_BITLANES ==> 48'h000_000_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_PHY_2_BITLANES ==> 48'h000_000_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_03
+MIG: 19:47:42 :  Invalid Param: DDR2_ADDR_MAP ==> 192'h000_000_000_010_033_01A_019_032_03A_034_018_036_012_011_017_015
+MIG: 19:47:42 :  Invalid Param: DDR2_BANK_MAP ==> 36'h013_016_01B
+MIG: 19:47:42 :  Invalid Param: DDR2_CAS_MAP ==> 12'h039
+MIG: 19:47:42 :  Invalid Param: DDR2_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 19:47:42 :  Invalid Param: DDR2_CKE_MAP ==> 96'h000_000_000_000_000_000_000_038
+MIG: 19:47:42 :  Invalid Param: DDR2_ODT_MAP ==> 96'h000_000_000_000_000_000_000_035
+MIG: 19:47:42 :  Invalid Param: DDR2_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_037
+MIG: 19:47:42 :  Invalid Param: DDR2_PARITY_MAP ==> 12'h000
+MIG: 19:47:42 :  Invalid Param: DDR2_RAS_MAP ==> 12'h014
+MIG: 19:47:42 :  Invalid Param: DDR2_WE_MAP ==> 12'h03B
+MIG: 19:47:42 :  Invalid Param: DDR2_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_02_00
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA0_MAP ==> 96'h008_004_009_007_005_001_006_003
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA1_MAP ==> 96'h022_028_020_024_027_025_026_021
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA2_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA3_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA4_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA5_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA6_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA7_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_MASK0_MAP ==> 108'h000_000_000_000_000_000_000_029_002
+MIG: 19:47:42 :  Invalid Param: DDR2_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 19:47:42 :  Invalid Param: DDR2_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 19:47:42 :  Invalid Param: DDR2_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 19:47:42 :  Invalid Param: DDR2_IBUF_LPWR_MODE ==> "OFF"
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 19:47:42 :  Invalid Param: DDR2_BANK_TYPE ==> "HR_IO"
+MIG: 19:47:42 :  Invalid Param: DDR2_DATA_IO_PRIM_TYPE ==> "HR_LP"
+MIG: 19:47:42 :  Invalid Param: DDR2_CKE_ODT_AUX ==> "FALSE"
+MIG: 19:47:42 :  Invalid Param: DDR2_USER_REFRESH ==> "OFF"
+MIG: 19:47:42 :  Invalid Param: DDR2_WRLVL ==> "OFF"
+MIG: 19:47:42 :  Invalid Param: DDR2_ORDERING ==> "NORM"
+MIG: 19:47:42 :  Invalid Param: DDR2_CALIB_ROW_ADD ==> 16'h0000
+MIG: 19:47:42 :  Invalid Param: DDR2_CALIB_COL_ADD ==> 12'h000
+MIG: 19:47:42 :  Invalid Param: DDR2_CALIB_BA_ADD ==> 3'h0
+MIG: 19:47:42 :  Invalid Param: DDR2_TCQ ==> 100
+MIG: 19:47:42 :  Invalid Param: DDR2_IODELAY_GRP ==> "MIG_IODELAY_MIG"
+MIG: 19:47:42 :  Invalid Param: DDR2_SYSCLK_TYPE ==> "NO_BUFFER"
+MIG: 19:47:42 :  Invalid Param: DDR2_REFCLK_TYPE ==> "USE_SYSTEM_CLOCK"
+MIG: 19:47:42 :  Invalid Param: DDR2_SYS_RST_PORT ==> "FALSE"
+MIG: 19:47:42 :  Invalid Param: DDR2_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 19:47:42 :  Invalid Param: DDR2_DRAM_TYPE ==> "DDR2"
+MIG: 19:47:42 :  Invalid Param: DDR2_CAL_WIDTH ==> "HALF"
+MIG: 19:47:42 :  Invalid Param: DDR2_STARVE_LIMIT ==> 2
+MIG: 19:47:42 :  Invalid Param: DDR2_REFCLK_FREQ ==> 200.0
+MIG: 19:47:42 :  Invalid Param: DDR2_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 19:47:42 :  Invalid Param: DDR2_tCK ==> 5000
+MIG: 19:47:42 : 4
+MIG: 19:47:42 :  Valid Param: DDR2_nCK_PER_CLK ==> 4
+MIG: 19:47:42 :  Invalid Param: DDR2_DIFF_TERM_SYSCLK ==> "TRUE"
+MIG: 19:47:42 : 
+MIG: 19:47:42 :  Valid Param: DDR2_DEBUG_PORT ==> OFF
+MIG: 19:47:42 : 
+MIG: 19:47:42 :  Invalid Param: DDR2_TEMP_MON_CONTROL ==> "EXTERNAL"
+MIG: 19:47:42 : NOBUF
+MIG: 19:47:42 : NONE
+MIG: 19:47:42 : 
+MIG: 19:47:42 : Same Interface
+MIG: 19:48:18 : Running synthesis.xit
+MIG: 19:48:18 : IGN:     <ModuleName>mig</ModuleName> <==>     <ModuleName>mig</ModuleName> 
+MIG: 19:48:18 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 19:48:19 : Running implementation.xit
+MIG: 19:48:20 : IGN:     <ModuleName>mig</ModuleName> <==>     <ModuleName>mig</ModuleName> 
+MIG: 19:48:20 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 19:48:21 : Running vlog_synth_rpr.xit
+MIG: 19:48:21 : IGN:     <ModuleName>mig</ModuleName> <==>     <ModuleName>mig</ModuleName> 
+MIG: 19:48:21 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 19:48:22 : Running simulation.xit
+MIG: 19:48:22 : IGN:     <ModuleName>mig</ModuleName> <==>     <ModuleName>mig</ModuleName> 
+MIG: 19:48:22 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 19:48:23 : Running vlog_sim_rpr.xit
+MIG: 19:48:23 : IGN:     <ModuleName>mig</ModuleName> <==>     <ModuleName>mig</ModuleName> 
+MIG: 19:48:23 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:47:43 : xml_input_file: mig_a.prj
+MIG: 15:47:43 : Absolute path of xml_input_file: mig_a.prj
+MIG: 15:47:43 : xml_input_file: mig_a.prj
+MIG: 15:47:43 : Absolute path of xml_input_file: mig_a.prj
+MIG: 15:47:43 : xml_input_file: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig_a.prj
+MIG: 15:47:43 : Absolute path of xml_input_file: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig_a.prj
+MIG: 15:47:43 : xml_input_file: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig_a.prj
+MIG: 15:47:43 : Absolute path of xml_input_file: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig_a.prj
+MIG: 15:47:43 : In updateAllModelParams
+MIG: 15:47:43 : IGN:     <ModuleName>mig</ModuleName> <==>     <ModuleName>mig</ModuleName> 
+MIG: 15:47:43 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:47:43 : XGUI hdlLanguage: Verilog
+MIG: 15:47:43 : xgui vivado_mode: xpg_pa
+MIG: 15:47:43 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 15:47:43 : Reading Z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig/user_design/rtl/mig_mig.v ...
+MIG: 15:47:44 : 
+MIG: 15:47:44 : Inside fn mem: DDR2
+MIG: 15:47:44 : QDRII+ Inside fn ui: 50000000
+MIG: 15:47:44 : 
+MIG: 15:47:44 : 
+MIG: 15:47:44 : 
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  polarity_value: 1
+MIG: 15:47:44 : 
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Invalid Param: DDR2_RST_ACT_LOW ==> 1
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Valid Param: DDR2_BANK_WIDTH ==> 3
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Valid Param: DDR2_CK_WIDTH ==> 1
+MIG: 15:47:44 :  Invalid Param: DDR2_COL_WIDTH ==> 10
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Valid Param: DDR2_CS_WIDTH ==> 1
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Valid Param: DDR2_nCS_PER_RANK ==> 1
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Valid Param: DDR2_CKE_WIDTH ==> 1
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 15:47:44 :  Invalid Param: DDR2_DQ_CNT_WIDTH ==> 4
+MIG: 15:47:44 :  Invalid Param: DDR2_DQ_PER_DM ==> 8
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Valid Param: DDR2_DM_WIDTH ==> 2
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Valid Param: DDR2_DQ_WIDTH ==> 16
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Valid Param: DDR2_DQS_WIDTH ==> 2
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Valid Param: DDR2_DQS_CNT_WIDTH ==> 1
+MIG: 15:47:44 :  Invalid Param: DDR2_DRAM_WIDTH ==> 8
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Valid Param: ECC ==> OFF
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Valid Param: DDR2_DATA_WIDTH ==> 16
+MIG: 15:47:44 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 15:47:44 :  Invalid Param: DDR2_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 15:47:44 :  Invalid Param: DDR2_MEM_ADDR_ORDER ==> "ROW_BANK_COLUMN"
+MIG: 15:47:44 :  Invalid Param: DDR2_nBANK_MACHS ==> 4
+MIG: 15:47:44 :  Invalid Param: DDR2_RANKS ==> 1
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Valid Param: DDR2_ODT_WIDTH ==> 1
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Valid Param: DDR2_ROW_WIDTH ==> 13
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Valid Param: DDR2_ADDR_WIDTH ==> 27
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Valid Param: DDR2_USE_CS_PORT ==> 1
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Valid Param: DDR2_USE_DM_PORT ==> 1
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Valid Param: DDR2_USE_ODT_PORT ==> 1
+MIG: 15:47:44 :  Invalid Param: DDR2_PHY_CONTROL_MASTER_BANK ==> 0
+MIG: 15:47:44 :  Invalid Param: DDR2_MEM_DENSITY ==> "1Gb"
+MIG: 15:47:44 :  Invalid Param: DDR2_MEM_SPEEDGRADE ==> "25E"
+MIG: 15:47:44 :  Invalid Param: DDR2_MEM_DEVICE_WIDTH ==> 16
+MIG: 15:47:44 :  Invalid Param: DDR2_AL ==> "0"
+MIG: 15:47:44 :  Invalid Param: DDR2_nAL ==> 0
+MIG: 15:47:44 :  Invalid Param: DDR2_BURST_MODE ==> "8"
+MIG: 15:47:44 :  Invalid Param: DDR2_BURST_TYPE ==> "SEQ"
+MIG: 15:47:44 :  Invalid Param: DDR2_CL ==> 3
+MIG: 15:47:44 :  Invalid Param: DDR2_OUTPUT_DRV ==> "HIGH"
+MIG: 15:47:44 :  Invalid Param: DDR2_RTT_NOM ==> "50"
+MIG: 15:47:44 :  Invalid Param: DDR2_ADDR_CMD_MODE ==> "1T"
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Valid Param: DDR2_REG_CTRL ==> OFF
+MIG: 15:47:44 :  Invalid Param: DDR2_CLKIN_PERIOD ==> 5000
+MIG: 15:47:44 :  Invalid Param: DDR2_CLKFBOUT_MULT ==> 4
+MIG: 15:47:44 :  Invalid Param: DDR2_DIVCLK_DIVIDE ==> 1
+MIG: 15:47:44 :  Invalid Param: DDR2_CLKOUT0_PHASE ==> 0.0
+MIG: 15:47:44 :  Invalid Param: DDR2_CLKOUT0_DIVIDE ==> 2
+MIG: 15:47:44 :  Invalid Param: DDR2_CLKOUT1_DIVIDE ==> 4
+MIG: 15:47:44 :  Invalid Param: DDR2_CLKOUT2_DIVIDE ==> 64
+MIG: 15:47:44 :  Invalid Param: DDR2_CLKOUT3_DIVIDE ==> 16
+MIG: 15:47:44 :  Invalid Param: DDR2_tCKE ==> 7500
+MIG: 15:47:44 :  Invalid Param: DDR2_tFAW ==> 45000
+MIG: 15:47:44 :  Invalid Param: DDR2_tPRDI ==> 1_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_tRAS ==> 40000
+MIG: 15:47:44 :  Invalid Param: DDR2_tRCD ==> 15000
+MIG: 15:47:44 :  Invalid Param: DDR2_tREFI ==> 7800000
+MIG: 15:47:44 :  Invalid Param: DDR2_tRFC ==> 127500
+MIG: 15:47:44 :  Invalid Param: DDR2_tRP ==> 12500
+MIG: 15:47:44 :  Invalid Param: DDR2_tRRD ==> 10000
+MIG: 15:47:44 :  Invalid Param: DDR2_tRTP ==> 7500
+MIG: 15:47:44 :  Invalid Param: DDR2_tWTR ==> 7500
+MIG: 15:47:44 :  Invalid Param: DDR2_tZQI ==> 128_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_tZQCS ==> 64
+MIG: 15:47:44 :  Invalid Param: DDR2_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 15:47:44 :  Invalid Param: DDR2_SIMULATION ==> "FALSE"
+MIG: 15:47:44 :  Invalid Param: DDR2_BYTE_LANES_B0 ==> 4'b1111
+MIG: 15:47:44 :  Invalid Param: DDR2_BYTE_LANES_B1 ==> 4'b0000
+MIG: 15:47:44 :  Invalid Param: DDR2_BYTE_LANES_B2 ==> 4'b0000
+MIG: 15:47:44 :  Invalid Param: DDR2_BYTE_LANES_B3 ==> 4'b0000
+MIG: 15:47:44 :  Invalid Param: DDR2_BYTE_LANES_B4 ==> 4'b0000
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA_CTL_B0 ==> 4'b0101
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA_CTL_B1 ==> 4'b0000
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA_CTL_B2 ==> 4'b0000
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA_CTL_B3 ==> 4'b0000
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA_CTL_B4 ==> 4'b0000
+MIG: 15:47:44 :  Invalid Param: DDR2_PHY_0_BITLANES ==> 48'hFFC_3F7_FFF_3FE
+MIG: 15:47:44 :  Invalid Param: DDR2_PHY_1_BITLANES ==> 48'h000_000_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_PHY_2_BITLANES ==> 48'h000_000_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_03
+MIG: 15:47:44 :  Invalid Param: DDR2_ADDR_MAP ==> 192'h000_000_000_010_033_01A_019_032_03A_034_018_036_012_011_017_015
+MIG: 15:47:44 :  Invalid Param: DDR2_BANK_MAP ==> 36'h013_016_01B
+MIG: 15:47:44 :  Invalid Param: DDR2_CAS_MAP ==> 12'h039
+MIG: 15:47:44 :  Invalid Param: DDR2_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 15:47:44 :  Invalid Param: DDR2_CKE_MAP ==> 96'h000_000_000_000_000_000_000_038
+MIG: 15:47:44 :  Invalid Param: DDR2_ODT_MAP ==> 96'h000_000_000_000_000_000_000_035
+MIG: 15:47:44 :  Invalid Param: DDR2_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_037
+MIG: 15:47:44 :  Invalid Param: DDR2_PARITY_MAP ==> 12'h000
+MIG: 15:47:44 :  Invalid Param: DDR2_RAS_MAP ==> 12'h014
+MIG: 15:47:44 :  Invalid Param: DDR2_WE_MAP ==> 12'h03B
+MIG: 15:47:44 :  Invalid Param: DDR2_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_02_00
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA0_MAP ==> 96'h008_004_009_007_005_001_006_003
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA1_MAP ==> 96'h022_028_020_024_027_025_026_021
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA2_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA3_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA4_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA5_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA6_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA7_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_MASK0_MAP ==> 108'h000_000_000_000_000_000_000_029_002
+MIG: 15:47:44 :  Invalid Param: DDR2_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 15:47:44 :  Invalid Param: DDR2_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 15:47:44 :  Invalid Param: DDR2_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 15:47:44 :  Invalid Param: DDR2_IBUF_LPWR_MODE ==> "OFF"
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 15:47:44 :  Invalid Param: DDR2_BANK_TYPE ==> "HR_IO"
+MIG: 15:47:44 :  Invalid Param: DDR2_DATA_IO_PRIM_TYPE ==> "HR_LP"
+MIG: 15:47:44 :  Invalid Param: DDR2_CKE_ODT_AUX ==> "FALSE"
+MIG: 15:47:44 :  Invalid Param: DDR2_USER_REFRESH ==> "OFF"
+MIG: 15:47:44 :  Invalid Param: DDR2_WRLVL ==> "OFF"
+MIG: 15:47:44 :  Invalid Param: DDR2_ORDERING ==> "NORM"
+MIG: 15:47:44 :  Invalid Param: DDR2_CALIB_ROW_ADD ==> 16'h0000
+MIG: 15:47:44 :  Invalid Param: DDR2_CALIB_COL_ADD ==> 12'h000
+MIG: 15:47:44 :  Invalid Param: DDR2_CALIB_BA_ADD ==> 3'h0
+MIG: 15:47:44 :  Invalid Param: DDR2_TCQ ==> 100
+MIG: 15:47:44 :  Invalid Param: DDR2_IODELAY_GRP ==> "MIG_IODELAY_MIG"
+MIG: 15:47:44 :  Invalid Param: DDR2_SYSCLK_TYPE ==> "NO_BUFFER"
+MIG: 15:47:44 :  Invalid Param: DDR2_REFCLK_TYPE ==> "USE_SYSTEM_CLOCK"
+MIG: 15:47:44 :  Invalid Param: DDR2_SYS_RST_PORT ==> "FALSE"
+MIG: 15:47:44 :  Invalid Param: DDR2_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 15:47:44 :  Invalid Param: DDR2_DRAM_TYPE ==> "DDR2"
+MIG: 15:47:44 :  Invalid Param: DDR2_CAL_WIDTH ==> "HALF"
+MIG: 15:47:44 :  Invalid Param: DDR2_STARVE_LIMIT ==> 2
+MIG: 15:47:44 :  Invalid Param: DDR2_REFCLK_FREQ ==> 200.0
+MIG: 15:47:44 :  Invalid Param: DDR2_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 15:47:44 :  Invalid Param: DDR2_tCK ==> 5000
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Valid Param: DDR2_nCK_PER_CLK ==> 4
+MIG: 15:47:44 :  Invalid Param: DDR2_DIFF_TERM_SYSCLK ==> "TRUE"
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Valid Param: DDR2_DEBUG_PORT ==> OFF
+MIG: 15:47:44 : 
+MIG: 15:47:44 :  Invalid Param: DDR2_TEMP_MON_CONTROL ==> "EXTERNAL"
+MIG: 15:47:44 : 
+MIG: 15:47:44 : 
+MIG: 15:47:44 : 
+MIG: 15:47:44 : Same Interface
+MIG: 15:47:51 : Running customizer.xit
+MIG: 15:47:51 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 15:47:51 : Writing IN file for 'mig'...compDirPath: c:/Xilinx/Vivado/2014.1/data/ip/xilinx/mig_7series_v2_0... instDirPath: c:/Users/matsuda/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6088-matsuda-PC/coregen/mig
+MIG: 15:47:51 : synp_flow:  -- synthesis_mode: Other
+MIG: 15:47:51 : outputDirectory: c:/Users/matsuda/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6088-matsuda-PC/coregen/mig/_tmp/
+MIG: 15:47:51 : vivado_mode: xpg_pa
+MIG: 15:47:51 :  locked false  
+MIG: 15:47:51 : HDL Language: Verilog
+MIG: 15:47:51 : compInfo: false
+MIG: 15:47:51 : Vivado Options xc7a100t csg324 -1
+MIG: 15:47:51 : 1: xc7a100t 2: csg324 3: -1
+MIG: 15:47:51 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_0/bin/nt64/mig.exe
+MIG: 15:47:51 : xilinx_path: C:/Xilinx/Vivado/2014.1/ids_lite/ISE
+MIG: 15:47:51 : I am in catch area
+MIG: 15:47:51 : Running C:/Xilinx/Vivado/2014.1/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_0/bin/nt64/mig.exe -cg_exc_inp c:/Users/matsuda/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6088-matsuda-PC/coregen/mig/xil_txt.in -cg_exc_out c:/Users/matsuda/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6088-matsuda-PC/coregen/mig/xil_txt.out ... 
+MIG: 15:50:55 : Prasad before: xmlPropertyPrj -- mig_a.prj
+MIG: 15:50:55 : Prasad After: xmlPropertyPrj -- mig_b.prj
+MIG: 15:50:55 : XML_INPUT_FILE: c:/Users/matsuda/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-6088-matsuda-PC/coregen/mig/mig_b.prj
+MIG: 15:50:55 : Component_Name: mig
+MIG: 15:50:55 : Moving mig ...
+MIG: 15:50:55 : Moving mig.veo ...
+MIG: 15:50:55 : Moving mig_xmdf.tcl ...
+MIG: 15:50:55 : Sending back 0
+MIG: 15:50:56 : xml_input_file: mig_b.prj
+MIG: 15:50:56 : Absolute path of xml_input_file: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig_b.prj
+MIG: 15:50:56 : xml_input_file: mig_b.prj
+MIG: 15:50:56 : Absolute path of xml_input_file: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig_b.prj
+MIG: 15:50:56 : In updateAllModelParams
+MIG: 15:50:56 : IGN:     <ModuleName>mig</ModuleName> <==>     <ModuleName>mig</ModuleName> 
+MIG: 15:50:56 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:50:56 : XGUI hdlLanguage: Verilog
+MIG: 15:50:56 : xgui vivado_mode: xpg_pa
+MIG: 15:50:56 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 15:50:56 : Reading Z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig/user_design/rtl/mig_mig.v ...
+MIG: 15:50:57 : 
+MIG: 15:50:57 : Inside fn mem: DDR2
+MIG: 15:50:57 : QDRII+ Inside fn ui: 50000000
+MIG: 15:50:57 : 
+MIG: 15:50:57 : 
+MIG: 15:50:57 : 
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  polarity_value: 0
+MIG: 15:50:57 : ACTIVE_HIGH
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Invalid Param: DDR2_RST_ACT_LOW ==> 0
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Valid Param: DDR2_BANK_WIDTH ==> 3
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Valid Param: DDR2_CK_WIDTH ==> 1
+MIG: 15:50:57 :  Invalid Param: DDR2_COL_WIDTH ==> 10
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Valid Param: DDR2_CS_WIDTH ==> 1
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Valid Param: DDR2_nCS_PER_RANK ==> 1
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Valid Param: DDR2_CKE_WIDTH ==> 1
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 15:50:57 :  Invalid Param: DDR2_DQ_CNT_WIDTH ==> 4
+MIG: 15:50:57 :  Invalid Param: DDR2_DQ_PER_DM ==> 8
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Valid Param: DDR2_DM_WIDTH ==> 2
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Valid Param: DDR2_DQ_WIDTH ==> 16
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Valid Param: DDR2_DQS_WIDTH ==> 2
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Valid Param: DDR2_DQS_CNT_WIDTH ==> 1
+MIG: 15:50:57 :  Invalid Param: DDR2_DRAM_WIDTH ==> 8
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Valid Param: ECC ==> OFF
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Valid Param: DDR2_DATA_WIDTH ==> 16
+MIG: 15:50:57 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 15:50:57 :  Invalid Param: DDR2_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 15:50:57 :  Invalid Param: DDR2_MEM_ADDR_ORDER ==> "ROW_BANK_COLUMN"
+MIG: 15:50:57 :  Invalid Param: DDR2_nBANK_MACHS ==> 4
+MIG: 15:50:57 :  Invalid Param: DDR2_RANKS ==> 1
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Valid Param: DDR2_ODT_WIDTH ==> 1
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Valid Param: DDR2_ROW_WIDTH ==> 13
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Valid Param: DDR2_ADDR_WIDTH ==> 27
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Valid Param: DDR2_USE_CS_PORT ==> 1
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Valid Param: DDR2_USE_DM_PORT ==> 1
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Valid Param: DDR2_USE_ODT_PORT ==> 1
+MIG: 15:50:57 :  Invalid Param: DDR2_PHY_CONTROL_MASTER_BANK ==> 0
+MIG: 15:50:57 :  Invalid Param: DDR2_MEM_DENSITY ==> "1Gb"
+MIG: 15:50:57 :  Invalid Param: DDR2_MEM_SPEEDGRADE ==> "25E"
+MIG: 15:50:57 :  Invalid Param: DDR2_MEM_DEVICE_WIDTH ==> 16
+MIG: 15:50:57 :  Invalid Param: DDR2_AL ==> "0"
+MIG: 15:50:57 :  Invalid Param: DDR2_nAL ==> 0
+MIG: 15:50:57 :  Invalid Param: DDR2_BURST_MODE ==> "8"
+MIG: 15:50:57 :  Invalid Param: DDR2_BURST_TYPE ==> "SEQ"
+MIG: 15:50:57 :  Invalid Param: DDR2_CL ==> 3
+MIG: 15:50:57 :  Invalid Param: DDR2_OUTPUT_DRV ==> "HIGH"
+MIG: 15:50:57 :  Invalid Param: DDR2_RTT_NOM ==> "50"
+MIG: 15:50:57 :  Invalid Param: DDR2_ADDR_CMD_MODE ==> "1T"
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Valid Param: DDR2_REG_CTRL ==> OFF
+MIG: 15:50:57 :  Invalid Param: DDR2_CLKIN_PERIOD ==> 5000
+MIG: 15:50:57 :  Invalid Param: DDR2_CLKFBOUT_MULT ==> 4
+MIG: 15:50:57 :  Invalid Param: DDR2_DIVCLK_DIVIDE ==> 1
+MIG: 15:50:57 :  Invalid Param: DDR2_CLKOUT0_PHASE ==> 0.0
+MIG: 15:50:57 :  Invalid Param: DDR2_CLKOUT0_DIVIDE ==> 2
+MIG: 15:50:57 :  Invalid Param: DDR2_CLKOUT1_DIVIDE ==> 4
+MIG: 15:50:57 :  Invalid Param: DDR2_CLKOUT2_DIVIDE ==> 64
+MIG: 15:50:57 :  Invalid Param: DDR2_CLKOUT3_DIVIDE ==> 16
+MIG: 15:50:57 :  Invalid Param: DDR2_tCKE ==> 7500
+MIG: 15:50:57 :  Invalid Param: DDR2_tFAW ==> 45000
+MIG: 15:50:57 :  Invalid Param: DDR2_tPRDI ==> 1_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_tRAS ==> 40000
+MIG: 15:50:57 :  Invalid Param: DDR2_tRCD ==> 15000
+MIG: 15:50:57 :  Invalid Param: DDR2_tREFI ==> 7800000
+MIG: 15:50:57 :  Invalid Param: DDR2_tRFC ==> 127500
+MIG: 15:50:57 :  Invalid Param: DDR2_tRP ==> 12500
+MIG: 15:50:57 :  Invalid Param: DDR2_tRRD ==> 10000
+MIG: 15:50:57 :  Invalid Param: DDR2_tRTP ==> 7500
+MIG: 15:50:57 :  Invalid Param: DDR2_tWTR ==> 7500
+MIG: 15:50:57 :  Invalid Param: DDR2_tZQI ==> 128_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_tZQCS ==> 64
+MIG: 15:50:57 :  Invalid Param: DDR2_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 15:50:57 :  Invalid Param: DDR2_SIMULATION ==> "FALSE"
+MIG: 15:50:57 :  Invalid Param: DDR2_BYTE_LANES_B0 ==> 4'b1111
+MIG: 15:50:57 :  Invalid Param: DDR2_BYTE_LANES_B1 ==> 4'b0000
+MIG: 15:50:57 :  Invalid Param: DDR2_BYTE_LANES_B2 ==> 4'b0000
+MIG: 15:50:57 :  Invalid Param: DDR2_BYTE_LANES_B3 ==> 4'b0000
+MIG: 15:50:57 :  Invalid Param: DDR2_BYTE_LANES_B4 ==> 4'b0000
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA_CTL_B0 ==> 4'b0101
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA_CTL_B1 ==> 4'b0000
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA_CTL_B2 ==> 4'b0000
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA_CTL_B3 ==> 4'b0000
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA_CTL_B4 ==> 4'b0000
+MIG: 15:50:57 :  Invalid Param: DDR2_PHY_0_BITLANES ==> 48'hFFC_3F7_FFF_3FE
+MIG: 15:50:57 :  Invalid Param: DDR2_PHY_1_BITLANES ==> 48'h000_000_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_PHY_2_BITLANES ==> 48'h000_000_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_03
+MIG: 15:50:57 :  Invalid Param: DDR2_ADDR_MAP ==> 192'h000_000_000_010_033_01A_019_032_03A_034_018_036_012_011_017_015
+MIG: 15:50:57 :  Invalid Param: DDR2_BANK_MAP ==> 36'h013_016_01B
+MIG: 15:50:57 :  Invalid Param: DDR2_CAS_MAP ==> 12'h039
+MIG: 15:50:57 :  Invalid Param: DDR2_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 15:50:57 :  Invalid Param: DDR2_CKE_MAP ==> 96'h000_000_000_000_000_000_000_038
+MIG: 15:50:57 :  Invalid Param: DDR2_ODT_MAP ==> 96'h000_000_000_000_000_000_000_035
+MIG: 15:50:57 :  Invalid Param: DDR2_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_037
+MIG: 15:50:57 :  Invalid Param: DDR2_PARITY_MAP ==> 12'h000
+MIG: 15:50:57 :  Invalid Param: DDR2_RAS_MAP ==> 12'h014
+MIG: 15:50:57 :  Invalid Param: DDR2_WE_MAP ==> 12'h03B
+MIG: 15:50:57 :  Invalid Param: DDR2_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_02_00
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA0_MAP ==> 96'h008_004_009_007_005_001_006_003
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA1_MAP ==> 96'h022_028_020_024_027_025_026_021
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA2_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA3_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA4_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA5_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA6_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA7_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_MASK0_MAP ==> 108'h000_000_000_000_000_000_000_029_002
+MIG: 15:50:57 :  Invalid Param: DDR2_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 15:50:57 :  Invalid Param: DDR2_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 15:50:57 :  Invalid Param: DDR2_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 15:50:57 :  Invalid Param: DDR2_IBUF_LPWR_MODE ==> "OFF"
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 15:50:57 :  Invalid Param: DDR2_BANK_TYPE ==> "HR_IO"
+MIG: 15:50:57 :  Invalid Param: DDR2_DATA_IO_PRIM_TYPE ==> "HR_LP"
+MIG: 15:50:57 :  Invalid Param: DDR2_CKE_ODT_AUX ==> "FALSE"
+MIG: 15:50:57 :  Invalid Param: DDR2_USER_REFRESH ==> "OFF"
+MIG: 15:50:57 :  Invalid Param: DDR2_WRLVL ==> "OFF"
+MIG: 15:50:57 :  Invalid Param: DDR2_ORDERING ==> "STRICT"
+MIG: 15:50:57 :  Invalid Param: DDR2_CALIB_ROW_ADD ==> 16'h0000
+MIG: 15:50:57 :  Invalid Param: DDR2_CALIB_COL_ADD ==> 12'h000
+MIG: 15:50:57 :  Invalid Param: DDR2_CALIB_BA_ADD ==> 3'h0
+MIG: 15:50:57 :  Invalid Param: DDR2_TCQ ==> 100
+MIG: 15:50:57 :  Invalid Param: DDR2_IODELAY_GRP ==> "MIG_IODELAY_MIG"
+MIG: 15:50:57 :  Invalid Param: DDR2_SYSCLK_TYPE ==> "NO_BUFFER"
+MIG: 15:50:57 :  Invalid Param: DDR2_REFCLK_TYPE ==> "USE_SYSTEM_CLOCK"
+MIG: 15:50:57 :  Invalid Param: DDR2_SYS_RST_PORT ==> "FALSE"
+MIG: 15:50:57 :  Invalid Param: DDR2_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 15:50:57 :  Invalid Param: DDR2_DRAM_TYPE ==> "DDR2"
+MIG: 15:50:57 :  Invalid Param: DDR2_CAL_WIDTH ==> "HALF"
+MIG: 15:50:57 :  Invalid Param: DDR2_STARVE_LIMIT ==> 2
+MIG: 15:50:57 :  Invalid Param: DDR2_REFCLK_FREQ ==> 200.0
+MIG: 15:50:57 :  Invalid Param: DDR2_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 15:50:57 :  Invalid Param: DDR2_tCK ==> 5000
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Valid Param: DDR2_nCK_PER_CLK ==> 4
+MIG: 15:50:57 :  Invalid Param: DDR2_DIFF_TERM_SYSCLK ==> "TRUE"
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Valid Param: DDR2_DEBUG_PORT ==> OFF
+MIG: 15:50:57 : 
+MIG: 15:50:57 :  Invalid Param: DDR2_TEMP_MON_CONTROL ==> "EXTERNAL"
+MIG: 15:50:57 : 
+MIG: 15:50:57 : 
+MIG: 15:50:57 : 
+MIG: 15:50:57 : Same Interface
+MIG: 15:51:01 : ################# RUNNING MIG BATCH ###################
+MIG: 15:51:01 : Writing IN file for 'mig'...compDirPath: c:/Xilinx/Vivado/2014.1/data/ip/xilinx/mig_7series_v2_0... instDirPath: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig
+MIG: 15:51:01 : synp_flow:  -- synthesis_mode: Other
+MIG: 15:51:01 : outputDirectory: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/_tmp/
+MIG: 15:51:01 : vivado_mode: xpg_pa
+MIG: 15:51:01 :  locked false  
+MIG: 15:51:01 : HDL Language: Verilog
+MIG: 15:51:01 : compInfo: false
+MIG: 15:51:01 : Vivado Options xc7a100t csg324 -1
+MIG: 15:51:01 : 1: xc7a100t 2: csg324 3: -1
+MIG: 15:51:01 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_0/bin/nt64/mig.exe
+MIG: 15:51:01 : xilinx_path: C:/Xilinx/Vivado/2014.1/ids_lite/ISE
+MIG: 15:51:01 : I am in catch area
+MIG: 15:51:01 : Running C:/Xilinx/Vivado/2014.1/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_0/bin/nt64/mig.exe -cg_exc_inp z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/xil_txt.in -cg_exc_out z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/xil_txt.out ... 
+MIG: 15:51:11 : XML_INPUT_FILE: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig_b.prj
+MIG: 15:51:11 : Component_Name: mig
+MIG: 15:51:11 : Moving mig ...
+MIG: 15:51:11 : Moving mig.veo ...
+MIG: 15:51:11 : Moving mig_xmdf.tcl ...
+MIG: 15:51:17 : Running synthesis.xit
+MIG: 15:51:17 : ################# RUNNING MIG BATCH ###################
+MIG: 15:51:17 : Writing IN file for 'mig'...compDirPath: c:/Xilinx/Vivado/2014.1/data/ip/xilinx/mig_7series_v2_0... instDirPath: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig
+MIG: 15:51:17 : synp_flow:  -- synthesis_mode: Other
+MIG: 15:51:17 : outputDirectory: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/_tmp/
+MIG: 15:51:17 : vivado_mode: xpg_pa
+MIG: 15:51:17 :  locked false  
+MIG: 15:51:17 : HDL Language: Verilog
+MIG: 15:51:17 : compInfo: false
+MIG: 15:51:17 : Vivado Options xc7a100t csg324 -1
+MIG: 15:51:17 : 1: xc7a100t 2: csg324 3: -1
+MIG: 15:51:17 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_0/bin/nt64/mig.exe
+MIG: 15:51:17 : xilinx_path: C:/Xilinx/Vivado/2014.1/ids_lite/ISE
+MIG: 15:51:17 : I am in catch area
+MIG: 15:51:17 : Running C:/Xilinx/Vivado/2014.1/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_0/bin/nt64/mig.exe -cg_exc_inp z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/xil_txt.in -cg_exc_out z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/xil_txt.out ... 
+MIG: 15:51:27 : XML_INPUT_FILE: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig_b.prj
+MIG: 15:51:27 : Component_Name: mig
+MIG: 15:51:27 : Moving mig ...
+MIG: 15:51:27 : Moving mig.veo ...
+MIG: 15:51:27 : Moving mig_xmdf.tcl ...
+MIG: 15:51:28 : Running implementation.xit
+MIG: 15:51:28 : IGN:     <ModuleName>mig</ModuleName> <==>     <ModuleName>mig</ModuleName> 
+MIG: 15:51:28 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:51:29 : Running vlog_synth_rpr.xit
+MIG: 15:51:29 : IGN:     <ModuleName>mig</ModuleName> <==>     <ModuleName>mig</ModuleName> 
+MIG: 15:51:29 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:51:30 : Running simulation.xit
+MIG: 15:51:30 : ################# RUNNING MIG BATCH ###################
+MIG: 15:51:30 : Writing IN file for 'mig'...compDirPath: c:/Xilinx/Vivado/2014.1/data/ip/xilinx/mig_7series_v2_0... instDirPath: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig
+MIG: 15:51:30 : synp_flow:  -- synthesis_mode: Other
+MIG: 15:51:30 : outputDirectory: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/_tmp/
+MIG: 15:51:30 : vivado_mode: xpg_pa
+MIG: 15:51:30 :  locked false  
+MIG: 15:51:30 : HDL Language: Verilog
+MIG: 15:51:30 : compInfo: false
+MIG: 15:51:30 : Vivado Options xc7a100t csg324 -1
+MIG: 15:51:30 : 1: xc7a100t 2: csg324 3: -1
+MIG: 15:51:30 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_0/bin/nt64/mig.exe
+MIG: 15:51:30 : xilinx_path: C:/Xilinx/Vivado/2014.1/ids_lite/ISE
+MIG: 15:51:30 : I am in catch area
+MIG: 15:51:30 : Running C:/Xilinx/Vivado/2014.1/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_0/bin/nt64/mig.exe -cg_exc_inp z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/xil_txt.in -cg_exc_out z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/xil_txt.out ... 
+MIG: 15:51:40 : XML_INPUT_FILE: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig_b.prj
+MIG: 15:51:40 : Component_Name: mig
+MIG: 15:51:40 : Moving mig ...
+MIG: 15:51:40 : Moving mig.veo ...
+MIG: 15:51:40 : Moving mig_xmdf.tcl ...
+MIG: 15:51:41 : Running vlog_sim_rpr.xit
+MIG: 15:51:41 : IGN:     <ModuleName>mig</ModuleName> <==>     <ModuleName>mig</ModuleName> 
+MIG: 15:51:41 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 17:10:10 : xml_input_file: mig_b.prj
+MIG: 17:10:10 : Absolute path of xml_input_file: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig_b.prj
+MIG: 17:10:10 : xml_input_file: mig_b.prj
+MIG: 17:10:10 : Absolute path of xml_input_file: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig_b.prj
+MIG: 17:10:13 : xml_input_file: mig_b.prj
+MIG: 17:10:14 : Absolute path of xml_input_file: mig_b.prj
+MIG: 17:10:14 : xml_input_file: mig_b.prj
+MIG: 17:10:14 : Absolute path of xml_input_file: mig_b.prj
+MIG: 17:10:14 : xml_input_file: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig_b.prj
+MIG: 17:10:14 : Absolute path of xml_input_file: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig_b.prj
+MIG: 17:10:14 : xml_input_file: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig_b.prj
+MIG: 17:10:14 : Absolute path of xml_input_file: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig_b.prj
+MIG: 17:10:14 : In updateAllModelParams
+MIG: 17:10:14 : IGN:     <ModuleName>mig</ModuleName> <==>     <ModuleName>mig</ModuleName> 
+MIG: 17:10:14 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 17:10:14 : XGUI hdlLanguage: Verilog
+MIG: 17:10:14 : xgui vivado_mode: xpg_pa
+MIG: 17:10:14 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 17:10:14 : Reading Z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig/user_design/rtl/mig_mig.v ...
+MIG: 17:10:14 : 
+MIG: 17:10:14 : Inside fn mem: DDR2
+MIG: 17:10:14 : QDRII+ Inside fn ui: 50000000
+MIG: 17:10:14 : 
+MIG: 17:10:14 : 
+MIG: 17:10:14 : 
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  polarity_value: 0
+MIG: 17:10:14 : 
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Invalid Param: DDR2_RST_ACT_LOW ==> 0
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Valid Param: DDR2_BANK_WIDTH ==> 3
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Valid Param: DDR2_CK_WIDTH ==> 1
+MIG: 17:10:14 :  Invalid Param: DDR2_COL_WIDTH ==> 10
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Valid Param: DDR2_CS_WIDTH ==> 1
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Valid Param: DDR2_nCS_PER_RANK ==> 1
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Valid Param: DDR2_CKE_WIDTH ==> 1
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 17:10:14 :  Invalid Param: DDR2_DQ_CNT_WIDTH ==> 4
+MIG: 17:10:14 :  Invalid Param: DDR2_DQ_PER_DM ==> 8
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Valid Param: DDR2_DM_WIDTH ==> 2
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Valid Param: DDR2_DQ_WIDTH ==> 16
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Valid Param: DDR2_DQS_WIDTH ==> 2
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Valid Param: DDR2_DQS_CNT_WIDTH ==> 1
+MIG: 17:10:14 :  Invalid Param: DDR2_DRAM_WIDTH ==> 8
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Valid Param: ECC ==> OFF
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Valid Param: DDR2_DATA_WIDTH ==> 16
+MIG: 17:10:14 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 17:10:14 :  Invalid Param: DDR2_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 17:10:14 :  Invalid Param: DDR2_MEM_ADDR_ORDER ==> "ROW_BANK_COLUMN"
+MIG: 17:10:14 :  Invalid Param: DDR2_nBANK_MACHS ==> 4
+MIG: 17:10:14 :  Invalid Param: DDR2_RANKS ==> 1
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Valid Param: DDR2_ODT_WIDTH ==> 1
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Valid Param: DDR2_ROW_WIDTH ==> 13
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Valid Param: DDR2_ADDR_WIDTH ==> 27
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Valid Param: DDR2_USE_CS_PORT ==> 1
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Valid Param: DDR2_USE_DM_PORT ==> 1
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Valid Param: DDR2_USE_ODT_PORT ==> 1
+MIG: 17:10:14 :  Invalid Param: DDR2_PHY_CONTROL_MASTER_BANK ==> 0
+MIG: 17:10:14 :  Invalid Param: DDR2_MEM_DENSITY ==> "1Gb"
+MIG: 17:10:14 :  Invalid Param: DDR2_MEM_SPEEDGRADE ==> "25E"
+MIG: 17:10:14 :  Invalid Param: DDR2_MEM_DEVICE_WIDTH ==> 16
+MIG: 17:10:14 :  Invalid Param: DDR2_AL ==> "0"
+MIG: 17:10:14 :  Invalid Param: DDR2_nAL ==> 0
+MIG: 17:10:14 :  Invalid Param: DDR2_BURST_MODE ==> "8"
+MIG: 17:10:14 :  Invalid Param: DDR2_BURST_TYPE ==> "SEQ"
+MIG: 17:10:14 :  Invalid Param: DDR2_CL ==> 3
+MIG: 17:10:14 :  Invalid Param: DDR2_OUTPUT_DRV ==> "HIGH"
+MIG: 17:10:14 :  Invalid Param: DDR2_RTT_NOM ==> "50"
+MIG: 17:10:14 :  Invalid Param: DDR2_ADDR_CMD_MODE ==> "1T"
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Valid Param: DDR2_REG_CTRL ==> OFF
+MIG: 17:10:14 :  Invalid Param: DDR2_CLKIN_PERIOD ==> 5000
+MIG: 17:10:14 :  Invalid Param: DDR2_CLKFBOUT_MULT ==> 4
+MIG: 17:10:14 :  Invalid Param: DDR2_DIVCLK_DIVIDE ==> 1
+MIG: 17:10:14 :  Invalid Param: DDR2_CLKOUT0_PHASE ==> 0.0
+MIG: 17:10:14 :  Invalid Param: DDR2_CLKOUT0_DIVIDE ==> 2
+MIG: 17:10:14 :  Invalid Param: DDR2_CLKOUT1_DIVIDE ==> 4
+MIG: 17:10:14 :  Invalid Param: DDR2_CLKOUT2_DIVIDE ==> 64
+MIG: 17:10:14 :  Invalid Param: DDR2_CLKOUT3_DIVIDE ==> 16
+MIG: 17:10:14 :  Invalid Param: DDR2_tCKE ==> 7500
+MIG: 17:10:14 :  Invalid Param: DDR2_tFAW ==> 45000
+MIG: 17:10:14 :  Invalid Param: DDR2_tPRDI ==> 1_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_tRAS ==> 40000
+MIG: 17:10:14 :  Invalid Param: DDR2_tRCD ==> 15000
+MIG: 17:10:14 :  Invalid Param: DDR2_tREFI ==> 7800000
+MIG: 17:10:14 :  Invalid Param: DDR2_tRFC ==> 127500
+MIG: 17:10:14 :  Invalid Param: DDR2_tRP ==> 12500
+MIG: 17:10:14 :  Invalid Param: DDR2_tRRD ==> 10000
+MIG: 17:10:14 :  Invalid Param: DDR2_tRTP ==> 7500
+MIG: 17:10:14 :  Invalid Param: DDR2_tWTR ==> 7500
+MIG: 17:10:14 :  Invalid Param: DDR2_tZQI ==> 128_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_tZQCS ==> 64
+MIG: 17:10:14 :  Invalid Param: DDR2_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 17:10:14 :  Invalid Param: DDR2_SIMULATION ==> "FALSE"
+MIG: 17:10:14 :  Invalid Param: DDR2_BYTE_LANES_B0 ==> 4'b1111
+MIG: 17:10:14 :  Invalid Param: DDR2_BYTE_LANES_B1 ==> 4'b0000
+MIG: 17:10:14 :  Invalid Param: DDR2_BYTE_LANES_B2 ==> 4'b0000
+MIG: 17:10:14 :  Invalid Param: DDR2_BYTE_LANES_B3 ==> 4'b0000
+MIG: 17:10:14 :  Invalid Param: DDR2_BYTE_LANES_B4 ==> 4'b0000
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA_CTL_B0 ==> 4'b0101
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA_CTL_B1 ==> 4'b0000
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA_CTL_B2 ==> 4'b0000
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA_CTL_B3 ==> 4'b0000
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA_CTL_B4 ==> 4'b0000
+MIG: 17:10:14 :  Invalid Param: DDR2_PHY_0_BITLANES ==> 48'hFFC_3F7_FFF_3FE
+MIG: 17:10:14 :  Invalid Param: DDR2_PHY_1_BITLANES ==> 48'h000_000_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_PHY_2_BITLANES ==> 48'h000_000_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_03
+MIG: 17:10:14 :  Invalid Param: DDR2_ADDR_MAP ==> 192'h000_000_000_010_033_01A_019_032_03A_034_018_036_012_011_017_015
+MIG: 17:10:14 :  Invalid Param: DDR2_BANK_MAP ==> 36'h013_016_01B
+MIG: 17:10:14 :  Invalid Param: DDR2_CAS_MAP ==> 12'h039
+MIG: 17:10:14 :  Invalid Param: DDR2_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 17:10:14 :  Invalid Param: DDR2_CKE_MAP ==> 96'h000_000_000_000_000_000_000_038
+MIG: 17:10:14 :  Invalid Param: DDR2_ODT_MAP ==> 96'h000_000_000_000_000_000_000_035
+MIG: 17:10:14 :  Invalid Param: DDR2_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_037
+MIG: 17:10:14 :  Invalid Param: DDR2_PARITY_MAP ==> 12'h000
+MIG: 17:10:14 :  Invalid Param: DDR2_RAS_MAP ==> 12'h014
+MIG: 17:10:14 :  Invalid Param: DDR2_WE_MAP ==> 12'h03B
+MIG: 17:10:14 :  Invalid Param: DDR2_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_02_00
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA0_MAP ==> 96'h008_004_009_007_005_001_006_003
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA1_MAP ==> 96'h022_028_020_024_027_025_026_021
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA2_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA3_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA4_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA5_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA6_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA7_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_MASK0_MAP ==> 108'h000_000_000_000_000_000_000_029_002
+MIG: 17:10:14 :  Invalid Param: DDR2_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 17:10:14 :  Invalid Param: DDR2_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 17:10:14 :  Invalid Param: DDR2_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 17:10:14 :  Invalid Param: DDR2_IBUF_LPWR_MODE ==> "OFF"
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 17:10:14 :  Invalid Param: DDR2_BANK_TYPE ==> "HR_IO"
+MIG: 17:10:14 :  Invalid Param: DDR2_DATA_IO_PRIM_TYPE ==> "HR_LP"
+MIG: 17:10:14 :  Invalid Param: DDR2_CKE_ODT_AUX ==> "FALSE"
+MIG: 17:10:14 :  Invalid Param: DDR2_USER_REFRESH ==> "OFF"
+MIG: 17:10:14 :  Invalid Param: DDR2_WRLVL ==> "OFF"
+MIG: 17:10:14 :  Invalid Param: DDR2_ORDERING ==> "STRICT"
+MIG: 17:10:14 :  Invalid Param: DDR2_CALIB_ROW_ADD ==> 16'h0000
+MIG: 17:10:14 :  Invalid Param: DDR2_CALIB_COL_ADD ==> 12'h000
+MIG: 17:10:14 :  Invalid Param: DDR2_CALIB_BA_ADD ==> 3'h0
+MIG: 17:10:14 :  Invalid Param: DDR2_TCQ ==> 100
+MIG: 17:10:14 :  Invalid Param: DDR2_IODELAY_GRP ==> "MIG_IODELAY_MIG"
+MIG: 17:10:14 :  Invalid Param: DDR2_SYSCLK_TYPE ==> "NO_BUFFER"
+MIG: 17:10:14 :  Invalid Param: DDR2_REFCLK_TYPE ==> "USE_SYSTEM_CLOCK"
+MIG: 17:10:14 :  Invalid Param: DDR2_SYS_RST_PORT ==> "FALSE"
+MIG: 17:10:14 :  Invalid Param: DDR2_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 17:10:14 :  Invalid Param: DDR2_DRAM_TYPE ==> "DDR2"
+MIG: 17:10:14 :  Invalid Param: DDR2_CAL_WIDTH ==> "HALF"
+MIG: 17:10:14 :  Invalid Param: DDR2_STARVE_LIMIT ==> 2
+MIG: 17:10:14 :  Invalid Param: DDR2_REFCLK_FREQ ==> 200.0
+MIG: 17:10:14 :  Invalid Param: DDR2_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 17:10:14 :  Invalid Param: DDR2_tCK ==> 5000
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Valid Param: DDR2_nCK_PER_CLK ==> 4
+MIG: 17:10:14 :  Invalid Param: DDR2_DIFF_TERM_SYSCLK ==> "TRUE"
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Valid Param: DDR2_DEBUG_PORT ==> OFF
+MIG: 17:10:14 : 
+MIG: 17:10:14 :  Invalid Param: DDR2_TEMP_MON_CONTROL ==> "EXTERNAL"
+MIG: 17:10:14 : 
+MIG: 17:10:14 : 
+MIG: 17:10:14 : 
+MIG: 17:10:14 : Same Interface
+MIG: 17:10:21 : Running customizer.xit
+MIG: 17:10:21 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 17:10:21 : Writing IN file for 'mig'...compDirPath: c:/Xilinx/Vivado/2014.1/data/ip/xilinx/mig_7series_v2_0... instDirPath: c:/Users/matsuda/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-7064-matsuda-PC/coregen/mig
+MIG: 17:10:21 : synp_flow:  -- synthesis_mode: Other
+MIG: 17:10:21 : outputDirectory: c:/Users/matsuda/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-7064-matsuda-PC/coregen/mig/_tmp/
+MIG: 17:10:21 : vivado_mode: xpg_pa
+MIG: 17:10:21 :  locked false  
+MIG: 17:10:21 : HDL Language: Verilog
+MIG: 17:10:21 : compInfo: false
+MIG: 17:10:21 : Vivado Options xc7a100t csg324 -1
+MIG: 17:10:21 : 1: xc7a100t 2: csg324 3: -1
+MIG: 17:10:21 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_0/bin/nt64/mig.exe
+MIG: 17:10:21 : xilinx_path: C:/Xilinx/Vivado/2014.1/ids_lite/ISE
+MIG: 17:10:21 : I am in catch area
+MIG: 17:10:21 : Running C:/Xilinx/Vivado/2014.1/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_0/bin/nt64/mig.exe -cg_exc_inp c:/Users/matsuda/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-7064-matsuda-PC/coregen/mig/xil_txt.in -cg_exc_out c:/Users/matsuda/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-7064-matsuda-PC/coregen/mig/xil_txt.out ... 
+MIG: 17:11:10 : Prasad before: xmlPropertyPrj -- mig_b.prj
+MIG: 17:11:10 : Prasad After: xmlPropertyPrj -- mig_a.prj
+MIG: 17:11:10 : XML_INPUT_FILE: c:/Users/matsuda/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-7064-matsuda-PC/coregen/mig/mig_a.prj
+MIG: 17:11:10 : Component_Name: mig
+MIG: 17:11:10 : Moving mig ...
+MIG: 17:11:10 : Moving mig.veo ...
+MIG: 17:11:10 : Moving mig_xmdf.tcl ...
+MIG: 17:11:10 : Sending back 0
+MIG: 17:11:11 : xml_input_file: mig_a.prj
+MIG: 17:11:11 : Absolute path of xml_input_file: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig_a.prj
+MIG: 17:11:11 : xml_input_file: mig_a.prj
+MIG: 17:11:11 : Absolute path of xml_input_file: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig_a.prj
+MIG: 17:11:11 : In updateAllModelParams
+MIG: 17:11:11 : IGN:     <ModuleName>mig</ModuleName> <==>     <ModuleName>mig</ModuleName> 
+MIG: 17:11:11 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 17:11:11 : XGUI hdlLanguage: Verilog
+MIG: 17:11:11 : xgui vivado_mode: xpg_pa
+MIG: 17:11:11 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 17:11:11 : Reading Z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig/user_design/rtl/mig_mig.v ...
+MIG: 17:11:12 : 
+MIG: 17:11:12 : Inside fn mem: DDR2
+MIG: 17:11:12 : QDRII+ Inside fn ui: 50000000
+MIG: 17:11:12 : 
+MIG: 17:11:12 : 
+MIG: 17:11:12 : 
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  polarity_value: 0
+MIG: 17:11:12 : 
+MIG: 17:11:12 : INTERNAL
+MIG: 17:11:12 :  Invalid Param: DDR2_RST_ACT_LOW ==> 0
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Valid Param: DDR2_BANK_WIDTH ==> 3
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Valid Param: DDR2_CK_WIDTH ==> 1
+MIG: 17:11:12 :  Invalid Param: DDR2_COL_WIDTH ==> 10
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Valid Param: DDR2_CS_WIDTH ==> 1
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Valid Param: DDR2_nCS_PER_RANK ==> 1
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Valid Param: DDR2_CKE_WIDTH ==> 1
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 17:11:12 :  Invalid Param: DDR2_DQ_CNT_WIDTH ==> 4
+MIG: 17:11:12 :  Invalid Param: DDR2_DQ_PER_DM ==> 8
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Valid Param: DDR2_DM_WIDTH ==> 2
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Valid Param: DDR2_DQ_WIDTH ==> 16
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Valid Param: DDR2_DQS_WIDTH ==> 2
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Valid Param: DDR2_DQS_CNT_WIDTH ==> 1
+MIG: 17:11:12 :  Invalid Param: DDR2_DRAM_WIDTH ==> 8
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Valid Param: ECC ==> OFF
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Valid Param: DDR2_DATA_WIDTH ==> 16
+MIG: 17:11:12 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 17:11:12 :  Invalid Param: DDR2_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 17:11:12 :  Invalid Param: DDR2_MEM_ADDR_ORDER ==> "ROW_BANK_COLUMN"
+MIG: 17:11:12 :  Invalid Param: DDR2_nBANK_MACHS ==> 4
+MIG: 17:11:12 :  Invalid Param: DDR2_RANKS ==> 1
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Valid Param: DDR2_ODT_WIDTH ==> 1
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Valid Param: DDR2_ROW_WIDTH ==> 13
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Valid Param: DDR2_ADDR_WIDTH ==> 27
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Valid Param: DDR2_USE_CS_PORT ==> 1
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Valid Param: DDR2_USE_DM_PORT ==> 1
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Valid Param: DDR2_USE_ODT_PORT ==> 1
+MIG: 17:11:12 :  Invalid Param: DDR2_PHY_CONTROL_MASTER_BANK ==> 0
+MIG: 17:11:12 :  Invalid Param: DDR2_MEM_DENSITY ==> "1Gb"
+MIG: 17:11:12 :  Invalid Param: DDR2_MEM_SPEEDGRADE ==> "25E"
+MIG: 17:11:12 :  Invalid Param: DDR2_MEM_DEVICE_WIDTH ==> 16
+MIG: 17:11:12 :  Invalid Param: DDR2_AL ==> "0"
+MIG: 17:11:12 :  Invalid Param: DDR2_nAL ==> 0
+MIG: 17:11:12 :  Invalid Param: DDR2_BURST_MODE ==> "8"
+MIG: 17:11:12 :  Invalid Param: DDR2_BURST_TYPE ==> "SEQ"
+MIG: 17:11:12 :  Invalid Param: DDR2_CL ==> 3
+MIG: 17:11:12 :  Invalid Param: DDR2_OUTPUT_DRV ==> "HIGH"
+MIG: 17:11:12 :  Invalid Param: DDR2_RTT_NOM ==> "50"
+MIG: 17:11:12 :  Invalid Param: DDR2_ADDR_CMD_MODE ==> "1T"
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Valid Param: DDR2_REG_CTRL ==> OFF
+MIG: 17:11:12 :  Invalid Param: DDR2_CLKIN_PERIOD ==> 5000
+MIG: 17:11:12 :  Invalid Param: DDR2_CLKFBOUT_MULT ==> 4
+MIG: 17:11:12 :  Invalid Param: DDR2_DIVCLK_DIVIDE ==> 1
+MIG: 17:11:12 :  Invalid Param: DDR2_CLKOUT0_PHASE ==> 0.0
+MIG: 17:11:12 :  Invalid Param: DDR2_CLKOUT0_DIVIDE ==> 2
+MIG: 17:11:12 :  Invalid Param: DDR2_CLKOUT1_DIVIDE ==> 4
+MIG: 17:11:12 :  Invalid Param: DDR2_CLKOUT2_DIVIDE ==> 64
+MIG: 17:11:12 :  Invalid Param: DDR2_CLKOUT3_DIVIDE ==> 16
+MIG: 17:11:12 :  Invalid Param: DDR2_tCKE ==> 7500
+MIG: 17:11:12 :  Invalid Param: DDR2_tFAW ==> 45000
+MIG: 17:11:12 :  Invalid Param: DDR2_tPRDI ==> 1_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_tRAS ==> 40000
+MIG: 17:11:12 :  Invalid Param: DDR2_tRCD ==> 15000
+MIG: 17:11:12 :  Invalid Param: DDR2_tREFI ==> 7800000
+MIG: 17:11:12 :  Invalid Param: DDR2_tRFC ==> 127500
+MIG: 17:11:12 :  Invalid Param: DDR2_tRP ==> 12500
+MIG: 17:11:12 :  Invalid Param: DDR2_tRRD ==> 10000
+MIG: 17:11:12 :  Invalid Param: DDR2_tRTP ==> 7500
+MIG: 17:11:12 :  Invalid Param: DDR2_tWTR ==> 7500
+MIG: 17:11:12 :  Invalid Param: DDR2_tZQI ==> 128_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_tZQCS ==> 64
+MIG: 17:11:12 :  Invalid Param: DDR2_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 17:11:12 :  Invalid Param: DDR2_SIMULATION ==> "FALSE"
+MIG: 17:11:12 :  Invalid Param: DDR2_BYTE_LANES_B0 ==> 4'b1111
+MIG: 17:11:12 :  Invalid Param: DDR2_BYTE_LANES_B1 ==> 4'b0000
+MIG: 17:11:12 :  Invalid Param: DDR2_BYTE_LANES_B2 ==> 4'b0000
+MIG: 17:11:12 :  Invalid Param: DDR2_BYTE_LANES_B3 ==> 4'b0000
+MIG: 17:11:12 :  Invalid Param: DDR2_BYTE_LANES_B4 ==> 4'b0000
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA_CTL_B0 ==> 4'b0101
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA_CTL_B1 ==> 4'b0000
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA_CTL_B2 ==> 4'b0000
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA_CTL_B3 ==> 4'b0000
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA_CTL_B4 ==> 4'b0000
+MIG: 17:11:12 :  Invalid Param: DDR2_PHY_0_BITLANES ==> 48'hFFC_3F7_FFF_3FE
+MIG: 17:11:12 :  Invalid Param: DDR2_PHY_1_BITLANES ==> 48'h000_000_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_PHY_2_BITLANES ==> 48'h000_000_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_03
+MIG: 17:11:12 :  Invalid Param: DDR2_ADDR_MAP ==> 192'h000_000_000_010_033_01A_019_032_03A_034_018_036_012_011_017_015
+MIG: 17:11:12 :  Invalid Param: DDR2_BANK_MAP ==> 36'h013_016_01B
+MIG: 17:11:12 :  Invalid Param: DDR2_CAS_MAP ==> 12'h039
+MIG: 17:11:12 :  Invalid Param: DDR2_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 17:11:12 :  Invalid Param: DDR2_CKE_MAP ==> 96'h000_000_000_000_000_000_000_038
+MIG: 17:11:12 :  Invalid Param: DDR2_ODT_MAP ==> 96'h000_000_000_000_000_000_000_035
+MIG: 17:11:12 :  Invalid Param: DDR2_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_037
+MIG: 17:11:12 :  Invalid Param: DDR2_PARITY_MAP ==> 12'h000
+MIG: 17:11:12 :  Invalid Param: DDR2_RAS_MAP ==> 12'h014
+MIG: 17:11:12 :  Invalid Param: DDR2_WE_MAP ==> 12'h03B
+MIG: 17:11:12 :  Invalid Param: DDR2_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_02_00
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA0_MAP ==> 96'h008_004_009_007_005_001_006_003
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA1_MAP ==> 96'h022_028_020_024_027_025_026_021
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA2_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA3_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA4_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA5_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA6_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA7_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_MASK0_MAP ==> 108'h000_000_000_000_000_000_000_029_002
+MIG: 17:11:12 :  Invalid Param: DDR2_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 17:11:12 :  Invalid Param: DDR2_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 17:11:12 :  Invalid Param: DDR2_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 17:11:12 :  Invalid Param: DDR2_IBUF_LPWR_MODE ==> "OFF"
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 17:11:12 :  Invalid Param: DDR2_BANK_TYPE ==> "HR_IO"
+MIG: 17:11:12 :  Invalid Param: DDR2_DATA_IO_PRIM_TYPE ==> "HR_LP"
+MIG: 17:11:12 :  Invalid Param: DDR2_CKE_ODT_AUX ==> "FALSE"
+MIG: 17:11:12 :  Invalid Param: DDR2_USER_REFRESH ==> "OFF"
+MIG: 17:11:12 :  Invalid Param: DDR2_WRLVL ==> "OFF"
+MIG: 17:11:12 :  Invalid Param: DDR2_ORDERING ==> "STRICT"
+MIG: 17:11:12 :  Invalid Param: DDR2_CALIB_ROW_ADD ==> 16'h0000
+MIG: 17:11:12 :  Invalid Param: DDR2_CALIB_COL_ADD ==> 12'h000
+MIG: 17:11:12 :  Invalid Param: DDR2_CALIB_BA_ADD ==> 3'h0
+MIG: 17:11:12 :  Invalid Param: DDR2_TCQ ==> 100
+MIG: 17:11:12 :  Invalid Param: DDR2_IODELAY_GRP ==> "MIG_IODELAY_MIG"
+MIG: 17:11:12 :  Invalid Param: DDR2_SYSCLK_TYPE ==> "NO_BUFFER"
+MIG: 17:11:12 :  Invalid Param: DDR2_REFCLK_TYPE ==> "USE_SYSTEM_CLOCK"
+MIG: 17:11:12 :  Invalid Param: DDR2_SYS_RST_PORT ==> "FALSE"
+MIG: 17:11:12 :  Invalid Param: DDR2_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 17:11:12 :  Invalid Param: DDR2_DRAM_TYPE ==> "DDR2"
+MIG: 17:11:12 :  Invalid Param: DDR2_CAL_WIDTH ==> "HALF"
+MIG: 17:11:12 :  Invalid Param: DDR2_STARVE_LIMIT ==> 2
+MIG: 17:11:12 :  Invalid Param: DDR2_REFCLK_FREQ ==> 200.0
+MIG: 17:11:12 :  Invalid Param: DDR2_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 17:11:12 :  Invalid Param: DDR2_tCK ==> 5000
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Valid Param: DDR2_nCK_PER_CLK ==> 4
+MIG: 17:11:12 :  Invalid Param: DDR2_DIFF_TERM_SYSCLK ==> "TRUE"
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Valid Param: DDR2_DEBUG_PORT ==> OFF
+MIG: 17:11:12 : 
+MIG: 17:11:12 :  Invalid Param: DDR2_TEMP_MON_CONTROL ==> "INTERNAL"
+MIG: 17:11:12 : 
+MIG: 17:11:12 : 
+MIG: 17:11:12 : 
+MIG: 17:11:12 : Same Interface
+MIG: 17:11:17 : ################# RUNNING MIG BATCH ###################
+MIG: 17:11:17 : Writing IN file for 'mig'...compDirPath: c:/Xilinx/Vivado/2014.1/data/ip/xilinx/mig_7series_v2_0... instDirPath: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig
+MIG: 17:11:17 : synp_flow:  -- synthesis_mode: Other
+MIG: 17:11:17 : outputDirectory: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/_tmp/
+MIG: 17:11:17 : vivado_mode: xpg_pa
+MIG: 17:11:17 :  locked false  
+MIG: 17:11:17 : HDL Language: Verilog
+MIG: 17:11:17 : compInfo: false
+MIG: 17:11:17 : Vivado Options xc7a100t csg324 -1
+MIG: 17:11:17 : 1: xc7a100t 2: csg324 3: -1
+MIG: 17:11:17 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_0/bin/nt64/mig.exe
+MIG: 17:11:17 : xilinx_path: C:/Xilinx/Vivado/2014.1/ids_lite/ISE
+MIG: 17:11:17 : I am in catch area
+MIG: 17:11:17 : Running C:/Xilinx/Vivado/2014.1/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v2_0/bin/nt64/mig.exe -cg_exc_inp z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/xil_txt.in -cg_exc_out z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/xil_txt.out ... 
+MIG: 17:11:27 : XML_INPUT_FILE: z:/cygwin64/home/matsuda/mierusys/release/fpga/nexys4_ddr/project/project.srcs/sources_1/ip/mig/mig_a.prj
+MIG: 17:11:27 : Component_Name: mig
+MIG: 17:11:27 : Moving mig ...
+MIG: 17:11:27 : Moving mig.veo ...
+MIG: 17:11:27 : Moving mig_xmdf.tcl ...
