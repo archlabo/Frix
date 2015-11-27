@@ -83,6 +83,8 @@ dd if=***.img of=/dev/diskX bs=102400 seek=512
 Our example hdd image is published in following web site.
 You need to get our hdd image there or create new hdd image by yourself.
 If you want to create new hdd image, see 'Make Disk Image' section.
+[Frix web site](http://www.arch.cs.titech.ac.jp/a/Frix/)
+
 
 ### Hardware connection
 
@@ -106,10 +108,10 @@ Please try several types of them.
 
 3.Congratulations! Frix system must be running!
 
-<!-- We publicate 2 types of hdd images at http://*****. -->
-<!-- One is FreeDOS 1.1, which has ... -->
-<!-- The Other is TinyCore 5.3, which has ... -->
-<!-- Try to run and enjoy these applications. -->
+We publicate 2 types of hdd images at [Frix web site](http://www.arch.cs.titech.ac.jp/a/Frix/)
+One is FreeDOS 1.1, which has DOOM, the first FPS game.
+The Other is TinyCore 5.3, which can use [sl command](http://github.com/mtoyoda/sl).
+Try to run and enjoy these applications!
 
 ---
 
