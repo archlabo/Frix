@@ -230,3 +230,11 @@ Note we have to specify "no387 nofxsr nortc" for boot option.
 ```
 sudo umount mnt
 ```
+## FAQ
+####Q. 
+I can't get any video output other than a blank screen with Nexys4 (DDR). 
+####A. 
+PS/2 port on Nexys4 board may be unstable, so BIOS calls BX_PANIC function and stops the system.
+To slove this problem, please reset FPGA with BTNC several times.
+Or download and extract the bochs-2.6.2 source archive, then apply the patch in the same way of ao486, comment out 1967 line of bios/rombios.c, and finally compile it.
+This line call BX_PANIC when keyboard causes a error.
