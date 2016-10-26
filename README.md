@@ -31,7 +31,7 @@ git clone https://github.com/archlabo/Frix.git
 2.Get required modules from ao486 project
 
 ```
-git submodule update --init
+cd Frix && git submodule update --init
 ```
 
 3.Apply our patch to ao486 modules 
@@ -48,7 +48,7 @@ patch -p1 < ../misc/ao486/ao486.patch
 #### Nexys4 (Nexys4 DDR)
 Nexys4 or Nexys4 DDR has Xilinx Artix-7 FPGA.
 You can use Vivado software for logic synthesis.
-We comfirmed our system, which is compiled on Vivado 2014.1-2 and 2015.2-4, can boot.
+We comfirmed our system, which is compiled on Vivado 2014.1-2, 2015.2-4 and 2016.2, can boot.
 
 1.Open fpga/nexys4(_ddr)/project/project.xpr
 
@@ -70,17 +70,16 @@ You can use Quartus II software for logic synthesis.
 
 ### (micro)SD card
 Nexys4 and Nexys4 DDR have each micro SD card slot, and DE2-115 has SD card slot.
-Store both BIOS image and disk image to SD card using dd command:
+Store both BIOS image and disk image to SD card using dd command (Note /dev/diskX is for Mac OS, other OS may use different name):
 
 ```
-dd if=ao486/sd/bios/bochs_legacy of=/dev/diskX bs=512 seek=72
-dd if=ao486/sd/vgabios/vgabios-lgpl of=/dev/diskX bs=512 seek=8
 
+dd if=bios_vgabios.dat of=/dev/diskX bs=102400 seek=0
 dd if=***.img of=/dev/diskX bs=102400 seek=512
 
 ```
 
-Our example hdd image is published in following web site.
+Our example hdd image and bios file is published in following web site.
 You need to get our hdd image there or create new hdd image by yourself.
 If you want to create new hdd image, see 'Make Disk Image' section.
 [Frix web site](http://www.arch.cs.titech.ac.jp/a/Frix/)
@@ -91,7 +90,7 @@ If you want to create new hdd image, see 'Make Disk Image' section.
 Prepare these following equipments and connect each other.
 - FPGA board (Nexys4/Nexys4 DDR/DE2-115)
 - Display (VGA port)
-- Keyboard (PS/2 port)
+- Keyboard (without USB hub)
 - (micro)SD card (Stored hdd image)
 
 Some keyboards and displays don't work well at our system.
@@ -107,6 +106,17 @@ Please try several types of them.
 - DE2-115: Open Device Manager from Quartus II
 
 3.Congratulations! Frix system must be running!
+Examples:
+- FreeDOS: 
+```
+cd GAME/DOOMS 
+DOOM  
+```
+- TinyCore:
+```
+cd /mnt/sda1/app 
+./sl 
+```
 
 We publicate 2 types of hdd images at [Frix web site](http://www.arch.cs.titech.ac.jp/a/Frix/)
 One is FreeDOS 1.1, which has DOOM, the first FPS game.
@@ -231,10 +241,36 @@ Note we have to specify "no387 nofxsr nortc" for boot option.
 sudo umount mnt
 ```
 ## FAQ
+####Q.
+What is bios_vgabios.dat
+####A.
+This file is essentialy concatenation of bios + vgabios.
+
+Instead of using this, you can dd each bios file by:
+```
+dd if=ao486/sd/bios/bochs_legacy of=/dev/diskX bs=512 seek=72
+dd if=ao486/sd/vgabios/vgabios-lgpl of=/dev/diskX bs=512 seek=8
+```
+Note that we modified bios in bios_vgabios.dat to boot without keyboard. See below question.
+
+####Q.
+BIOS hangs without keyboard when using original bios files (ao486/sd/bios,vgabios).
 ####Q. 
-I can't get any video output other than a blank screen with Nexys4 (DDR). 
+I can't get any video output other than a blank screen with Nexys4 (DDR) when using original bios files. 
 ####A. 
-PS/2 port on Nexys4 board may be unstable, so BIOS calls BX_PANIC function and stops the system.
-To slove this problem, please reset FPGA with BTNC several times.
-Or download and extract the bochs-2.6.2 source archive, then apply the patch in the same way of ao486, comment out 1967 line of bios/rombios.c, and finally compile it.
-This line call BX_PANIC when keyboard causes a error.
+If keyboard is not connected, original BIOS calls BX_PANIC.
+Also, PS/2 port on Nexys4 board may be unstable, so BIOS calls BX_PANIC function and stops the system.
+For the second case, to reset FPGA with BTNC several times may work.
+
+To solve this problem, you have to recompile bios. Download and extract the bochs-2.6.2 source archive, then apply the patch in the same way of ao486, comment out 1967 line of bios/rombios.c, and finally compile it.
+This line call BX_PANIC when keyboard causes a error. (this has been done for bios_vgabios.dat)
+
+####Q.
+Keyboard does not work on Nexys4 (DDR)
+####A.
+The keyboard which has USB function does not work with Nexys4 (DDR).
+
+####Q.
+What LED Outputs mean?
+####A.
+Please see top module (i.e. Frix/fpga/nexys4/rtl/soc.v etc.)
